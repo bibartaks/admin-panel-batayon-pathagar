@@ -23,8 +23,11 @@ export default function Home() {
         <Link href="/higher_math_2" className="block mb-3 text-sm underline">
           Chemistry First Paper
         </Link>
-        <Link href="/biology" className="block mb-3 text-sm underline">
-          Biology
+        <Link href="/biology_1" className="block mb-3 text-sm underline">
+          Biology 1
+        </Link>
+        <Link href="/biology_2" className="block mb-3 text-sm underline">
+          Biology 2
         </Link>
       </div>
     </main>
