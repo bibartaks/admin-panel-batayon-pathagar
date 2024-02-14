@@ -69,7 +69,7 @@ export default function Physics() {
           ></textarea> */}
 
           <SubmitButton />
-          <p className="text-white opacity-90">{state?.message} </p>
+          <p className="text-black opacity-90">{state?.message} </p>
         </form>
       </div>
     </main>
