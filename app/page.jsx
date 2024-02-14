@@ -14,6 +14,9 @@ export default function Home() {
         <Link href="/physics_2" className="block mb-3 text-sm underline">
           Physics Second Paper
         </Link>
+        <Link href="/higher_math_1" className="block mb-3 text-sm underline">
+          Higher Math First Paper
+        </Link>
       </div>
     </main>
   );
