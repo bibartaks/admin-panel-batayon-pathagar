@@ -2,7 +2,7 @@
 
 import { useFormState, useFormStatus } from "react-dom";
 import SubmitButton from "../SubmitButton";
-import { createFormData } from "./higher_math_1";
+import { createFormData } from "./chemistry_1";
 
 export default function HigherMath_1() {
   const initialState = {
