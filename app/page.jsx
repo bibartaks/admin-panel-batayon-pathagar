@@ -20,6 +20,12 @@ export default function Home() {
         <Link href="/higher_math_2" className="block mb-3 text-sm underline">
           Higher Math Second Paper
         </Link>
+        <Link href="/higher_math_2" className="block mb-3 text-sm underline">
+          Chemistry First Paper
+        </Link>
+        <Link href="/biology" className="block mb-3 text-sm underline">
+          Biology
+        </Link>
       </div>
     </main>
   );
