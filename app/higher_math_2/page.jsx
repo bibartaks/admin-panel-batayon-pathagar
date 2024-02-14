@@ -2,9 +2,9 @@
 
 import { useFormState, useFormStatus } from "react-dom";
 import SubmitButton from "../SubmitButton";
-import { createFormData } from "./physics_2";
+import { createFormData } from "./higher_math_2";
 
-export default function Physics() {
+export default function HigherMath_1() {
   const initialState = {
     teacher: "",
     video_playlist: "",
@@ -20,7 +20,7 @@ export default function Physics() {
     <main className="py-10">
       <div className="container">
         <h1 className="text-2xl mb-5 font-medium">
-          Add Physics 2 paper contents
+          Add Higher Math 2 Paper contents
         </h1>
         <form
           action={formAction}
@@ -58,6 +58,15 @@ export default function Physics() {
             className={`  py-2 px-1 bg-transparent border-2 focus:outline-none focus:border-primary text-black placeholder-gray-400 caret-[#e815b7]   focus:shadow-2xl	`}
             required
           />
+          {/* <textarea
+            name="fuck"
+            placeholder="batch"
+            cols={30}
+            id="messages"
+            rows={7}
+            required
+            className={`  py-2 px-1 bg-transparent border-b-2 focus:outline-none focus:border-[#e815b7] text-white placeholder-gray-400 caret-[#e815b7]	`}
+          ></textarea> */}
 
           <SubmitButton />
           <p className="text-black opacity-90">{state?.message} </p>
