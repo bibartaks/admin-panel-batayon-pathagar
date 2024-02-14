@@ -10,7 +10,7 @@ export async function createFormData(prevState, formData) {
     const client = new MongoClient(uri)
     await client.connect()
     const database = client.db("hsc")
-    const collection = database.collection("biology")
+    const collection = database.collection("biology_1")
 
     let message = {
       teacher: formData.get("teacher_name"),

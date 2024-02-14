@@ -2,7 +2,7 @@
 
 import { useFormState, useFormStatus } from "react-dom";
 import SubmitButton from "../SubmitButton";
-import { createFormData } from "./biology";
+import { createFormData } from "./biology_2";
 
 export default function HigherMath_1() {
   const initialState = {
@@ -19,7 +19,9 @@ export default function HigherMath_1() {
   return (
     <main className="py-10">
       <div className="container">
-        <h1 className="text-2xl mb-5 font-medium">Add Biology contents</h1>
+        <h1 className="text-2xl mb-5 font-medium">
+          Add Biology 2 paper contents
+        </h1>
         <form
           action={formAction}
           className="flex flex-col  w-[100%] lg:w-[50%] xl:w-[50%] 2xl:w-[50%] space-y-8 border border-ring px-2 py-5"
