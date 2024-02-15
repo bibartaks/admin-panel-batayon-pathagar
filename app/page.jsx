@@ -29,6 +29,9 @@ export default function Home() {
         <Link href="/biology_2" className="block mb-3 text-sm underline">
           Biology 2
         </Link>
+        <Link href="/ict" className="block mb-3 text-sm underline">
+          ICT
+        </Link>
       </div>
     </main>
   );
