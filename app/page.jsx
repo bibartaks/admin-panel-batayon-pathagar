@@ -1,8 +1,10 @@
+import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <main>
+      <Button>Button</Button>
       <div className="container py-10">
         <h1 className="text-2xl font-medium text-center mb-5">
           Welcome to Batayon Pathagar Admin Panel
