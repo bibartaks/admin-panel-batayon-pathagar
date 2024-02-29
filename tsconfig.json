@@ -23,7 +23,8 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx",
-    "app/higher_math_1/page.jsx"
+    "app/higher_math_1/page.jsx",
+    "app/geography_1/page.jsx"
   ],
   "exclude": ["node_modules"]
 }
