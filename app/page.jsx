@@ -4,10 +4,10 @@ export default function Home() {
   return (
     <main>
       <div className='container py-10'>
-        <h1 className='text-2xl font-medium text-center mb-5'>
+        <h1 className='mb-5 text-2xl font-medium text-center'>
           Welcome to Batayon Pathagar Admin Panel
         </h1>
-        <h1 className='font-bold text-2xl mb-4'>Science</h1>
+        <h1 className='mb-4 text-2xl font-bold'>Science</h1>
         <h3 className='mb-3 font-semibold'>Choose a subject:</h3>
         <Link href='/physics_1' className='block mb-3 text-sm underline'>
           Physics First Paper
@@ -36,9 +36,12 @@ export default function Home() {
         <Link href='/ict' className='block mb-3 text-sm underline'>
           ICT
         </Link>
-        <h1 className='font-bold text-2xl mb-4'>Humanities</h1>
+        <h1 className='mb-4 text-2xl font-bold'>Humanities</h1>
         <Link href='/geography_1' className='block mb-3 text-sm underline'>
           Geography 1
+        </Link>
+        <Link href='/geography_2' className='block mb-3 text-sm underline'>
+          Geography 2
         </Link>
       </div>
     </main>
