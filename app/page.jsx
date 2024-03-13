@@ -43,6 +43,12 @@ export default function Home() {
         <Link href='/geography_2' className='block mb-3 text-sm underline'>
           Geography 2
         </Link>
+        <Link href='/phychology_1' className='block mb-3 text-sm underline'>
+          Phychology 1
+        </Link>
+        <Link href='/phychology_2' className='block mb-3 text-sm underline'>
+          Phychology 2
+        </Link>
       </div>
     </main>
   );
