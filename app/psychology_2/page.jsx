@@ -2,7 +2,7 @@
 
 import { useFormState, useFormStatus } from 'react-dom';
 import SubmitButton from '../SubmitButton';
-import { createFormData } from './geography_1';
+import { createFormData } from './psychology_2';
 
 export default function HigherMath_1({ subject }) {
   const initialState = {
@@ -12,6 +12,8 @@ export default function HigherMath_1({ subject }) {
     chapter: '',
   };
 
+  subject = 'lol';
+
   const [state, formAction] = useFormState(createFormData, initialState);
   console.log(state);
   const { pending } = useFormStatus();
@@ -20,7 +22,7 @@ export default function HigherMath_1({ subject }) {
     <main className='py-10'>
       <div className='container'>
         <h1 className='mb-5 text-2xl font-medium'>
-          Add Geography 1 paper contents
+          Add Phychology 2 paper contents
         </h1>
         <form
           action={formAction}
