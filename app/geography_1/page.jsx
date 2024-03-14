@@ -4,7 +4,7 @@ import { useFormState, useFormStatus } from 'react-dom';
 import SubmitButton from '../SubmitButton';
 import { createFormData } from './geography_1';
 
-export default function HigherMath_1() {
+export default function Geography_1() {
   const initialState = {
     teacher: '',
     video_playlist: '',
