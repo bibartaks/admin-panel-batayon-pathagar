@@ -12,8 +12,6 @@ export default function Phychology_1() {
     chapter: '',
   };
 
-  subject = 'lol';
-
   const [state, formAction] = useFormState(createFormData, initialState);
   console.log(state);
   const { pending } = useFormStatus();
